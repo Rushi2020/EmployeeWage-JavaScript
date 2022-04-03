@@ -8,7 +8,7 @@ const EMP_WAGE_PER_HR=20;
 
 let empHR=0;
 let employeecheck = Math.floor(Math.random()*10)%3;
-console.log(employeecheck)
+// console.log(employeecheck)
 
 switch(employeecheck){
     case PART_TIME:
@@ -25,6 +25,6 @@ switch(employeecheck){
 
       default:
       empHR=0;
-      break
-
+      break     
 }
+console.log(employeecheck)
